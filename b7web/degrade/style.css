@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+
+.exemplo{
+    width: 500px;
+    height: 200px;
+    background: blue;
+    background:linear-gradient(to left, rgb(212, 4, 4),rgb(57, 212, 57)); /*geral*/
+    background:-moz-linear-gradient(to left, rgb(218, 11, 11),green); /*mozila*/
+    background:-o-linear-gradient(to left, #fff,green); /*Opera*/
+    background:-webkit-linear-gradient(to left, #fff,green);/*safari*/
+
+
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    background: #EEE;
+}
+
+
+form{
+    width: 250px;
+    height: 130px;
+    background-color: rgb(187, 185, 185);
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+input{
+    padding: 5px;
+    font-size: 13px;
+   
+}
+p{
+    margin: 0;
+    padding: 0px;
+}
+p.enviar{
+    margin-top: 10px;
+}
