@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@keyframes exemplo{
+    0%{background-color: brown; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 0px; left: 200px;}
+    50%{background-color: aqua; top: 200px; left: 200px;}
+    75%{background-color: black; top:200px; left: 0px;}
+    100%{background-color: cadetblue; top: 0px; left: 0px;}
+}
+
+body{
+    margin: 0px;
+}
+.exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    animation-name: exemplo;
+    animation-duration: 4s;
+    animation-delay: 2px;
+    animation-iteration-count: 3;
+}
