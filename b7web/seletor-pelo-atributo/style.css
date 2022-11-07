@@ -1,0 +1,17 @@
+input,a {
+    display: block;
+}
+/* input[name="usuario"]{
+    background-color: red;
+} */
+a[href *= "climatempo"]{
+    background-color: blue;
+}
+a[href ^= "https"]{
+    background-color: blue;
+}
+
+a[href $= "html"]{
+    background-color: rgb(218, 255, 149);
+}
+
