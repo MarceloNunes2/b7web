@@ -1,0 +1,16 @@
+body{
+    background-image:url(az.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div{
+    background-color:rgba(0,0,0,0.1);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

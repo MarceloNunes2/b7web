@@ -1,0 +1,16 @@
+div{
+/* 
+    background-color: red;
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    right: -120px;
+    bottom: 60px;
+    transform:rotate(315deg); */
+
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transform: skew(5deg,20deg);
+}
