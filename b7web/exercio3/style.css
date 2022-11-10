@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+
+    background-color: rgb(0, 162, 255);
+    box-shadow: 2px 2px 8px black;
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    top: 40px;
+    left: -110px;
+    transform:rotate(315deg);
+    margin: 20px;
+}
+div::after{
+    
+}
+a{
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    text-shadow: 0.5px 1px 1px rgb(206, 205, 205) ;
+    color: antiquewhite;    
+}
+
